@@ -9,6 +9,7 @@ namespace PaginaColetaEmailVideo.Data
         {
         }
 
+
         public DbSet<EmailModel> Emails { get; set; }
     }
 }
