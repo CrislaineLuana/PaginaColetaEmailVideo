@@ -11,5 +11,6 @@ namespace PaginaColetaEmailVideo.Data
 
 
         public DbSet<EmailModel> Emails { get; set; }
+        public DbSet<UsuarioModel> Usuarios { get; set; }
     }
 }
